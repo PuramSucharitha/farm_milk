@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: antiquewhite;
+}
+.home-header{
+    background-color: black;
+    height: 150px;
+    margin: 0;
+}
+.home-title{
+    color: white;
+    font-size: 60px;
+}
+.home-menu a{
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 14px 16px;
+    font-weight: bold;
+}
+.home-middle{
+    margin-top: 0%;
+    position: relative;
+    width: 100%;  
+}
+.home-middle img{
+    width: 100%;
+    height: auto;
+}
+.home-middle .btn {
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 20px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+.home-middle p {
+    position: absolute;
+    top: 30%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: black;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+.home-middle .btn {
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 20px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+.container .btn:hover {
+    background-color: black;
+}
+.home-footer h2{
+    text-decoration: underline;
+}
+.home-footer img{
+    padding: 10px;
+}
+.shop-middle img{
+    width: 100%;
+}
+.shop-middle .btn {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 20px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+.middle-reg{
+    background-color: cornsilk;
+}
+form{
+    padding: 5px;
+    font-size: 20px;
+}
+input, select{
+    width: 30%;
+    padding: auto;
+    border: 3px solid palegoldenrod;
+    border-radius: 4px;
+    background-color: whitesmoke;
+    color: black;
+}
+.middle-reg h3{
+    color: black;
+    font-size: medium;
+}
+.login-btn {
+    background-color:rgb(68, 67, 67);
+    color: #fff;
+    border:none;
+    width: 15%;
+    border-radius:10px;
+}
+.login-btn:hover {
+    background-color: black;
+    transition: 0.3s;
+}
+.next-btn {
+    background-color:rgb(68, 67, 67);
+    color: #fff;
+    border:none;
+    width: 20%;
+    border-radius:10px;
+}
+.next-btn:hover {
+    background-color: black;
+    transition: 0.3s;
+}
+.next-middle{
+    
+}
